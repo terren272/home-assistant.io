@@ -213,7 +213,6 @@
 /components/binary_sensor.zha /integrations/zha
 /components/binary_sensor.zigbee /integrations/zigbee#binary-sensor
 /components/binary_sensor.zoneminder /integrations/zoneminder#binary-sensor
-/components/binary_sensor.zwave /integrations/zwave
 /components/calendar.caldav /integrations/caldav
 /components/calendar.todoist /integrations/todoist
 /components/camera.abode /integrations/abode
@@ -292,7 +291,6 @@
 /components/climate.vera /integrations/vera
 /components/climate.xs1 /integrations/xs1
 /components/climate.zhong_hong /integrations/zhong_hong
-/components/climate.zwave /integrations/zwave#climate
 /components/cover.abode /integrations/abode
 /components/cover.aladdin_connect /integrations/aladdin_connect
 /components/cover.brunt /integrations/brunt
@@ -321,7 +319,6 @@
 /components/cover.tuya /integrations/tuya
 /components/cover.velux /integrations/velux
 /components/cover.vera /integrations/vera
-/components/cover.zwave /integrations/zwave#cover
 /components/cppm /integrations/cppm_tracker
 /components/device_tracker.actiontec /integrations/actiontec
 /components/device_tracker.aruba /integrations/aruba
@@ -383,7 +380,6 @@
 /components/fan.tuya /integrations/tuya
 /components/fan.wemo /integrations/wemo#fan
 /components/fan.zha /integrations/zha
-/components/fan.zwave /integrations/zwave
 /components/generic /integrations/generic
 /components/geo_location.geo_json_events /integrations/geo_json_events
 /components/geo_location.nsw_rural_fire_service_feed /integrations/nsw_rural_fire_service_feed
@@ -468,7 +464,6 @@
 /components/light.zengge /integrations/zengge
 /components/light.zha /integrations/zha
 /components/light.zigbee /integrations/zigbee#light
-/components/light.zwave /integrations/zwave
 /components/lock.abode /integrations/abode
 /components/lock.august /integrations/august
 /components/lock.bmw_connected_drive /integrations/bmw_connected_drive
@@ -483,7 +478,6 @@
 /components/lock.vera /integrations/vera
 /components/lock.verisure /integrations/verisure
 /components/lock.volvooncall /integrations/volvooncall
-/components/lock.zwave /integrations/zwave#lock
 /components/mailbox.asterisk_cdr /integrations/asterisk_cdr
 /components/mailbox.asterisk_mbox /integrations/asterisk_mbox
 /components/media_player.anthemav /integrations/anthemav
@@ -904,7 +898,6 @@
 /components/sensor.zha /integrations/zha
 /components/sensor.zigbee /integrations/zigbee#sensor
 /components/sensor.zoneminder /integrations/zoneminder#sensor
-/components/sensor.zwave /integrations/zwave
 /components/smartthings.binary_sensor /integrations/smartthings
 /components/smartthings.climate /integrations/smartthings
 /components/smartthings.cover /integrations/smartthings
@@ -1017,7 +1010,6 @@
 /components/switch.zha /integrations/zha
 /components/switch.zigbee /integrations/zigbee#switch
 /components/switch.zoneminder /integrations/zoneminder#switch
-/components/switch.zwave /integrations/zwave
 /components/telegram_bot.broadcast /integrations/telegram_broadcast
 /components/telegram_bot.polling /integrations/telegram_polling
 /components/telegram_bot.webhooks /integrations/telegram_webhooks
@@ -1959,7 +1951,6 @@
 /components/ziggo_mediabox_xl /integrations/ziggo_mediabox_xl
 /components/zone /integrations/zone
 /components/zoneminder /integrations/zoneminder
-/components/zwave /integrations/zwave
 
 # Breaking changes
 /integrations/switch.pca /integrations/elv
@@ -1993,26 +1984,16 @@
 /docs/frontend/mobile https://companion.home-assistant.io
 /docs/script/editor /docs/scripts/editor
 /docs/z-wave /integrations/zwave_js
-/docs/z-wave/adding /integrations/zwave/#adding-and-removing-devices
-/docs/z-wave/control-panel /integrations/zwave/#control-panel
+/docs/z-wave/adding /integrations/zwave_js#how-can-i-add-include-a-new-device-to-my-z-wave-network
+/docs/z-wave/control-panel /integrations/zwave_js#using-z-wave-js
 /docs/z-wave/controllers/#aeotec-stick /docs/z-wave/controllers/#aeotec-z-stick
-/docs/z-wave/devices /integrations/zwave/#device-support
-/docs/z-wave/devices/#instant-status /integrations/zwave/#instant-status
-/docs/z-wave/devices/#polling /integrations/zwave/#polling
-/docs/z-wave/device-specific /integrations/zwave/#device-specific-information
-/docs/z-wave/device-specific/#device-categories /integrations/zwave/#device-support
-/docs/z-wave/device-specific/#motion-or-alarm-sensors /integrations/zwave/#binary-sensor
-/docs/z-wave/device-specific/#locks-and-other-secure-devices /integrations/zwave/#lock
-/docs/z-wave/device-specific/#specific-devices /integrations/zwave/#device-specific-information
-/docs/z-wave/device-specific/#aeotec-z-stick /docs/z-wave/controllers/#aeotec-z-stick
-/docs/z-wave/device-specific/#razberry-board /docs/z-wave/controllers/#razberry-board
-/docs/z-wave/device-specific/#raspberry-pi-3-procedure /docs/z-wave/controllers/#raspberry-pi-3-procedure
-/docs/z-wave/device-specific/#raspberry-pi-4-procedure /docs/z-wave/controllers/#raspberry-pi-4-procedure
-/docs/z-wave/entities /integrations/zwave/#device-support
-/docs/z-wave/events /integrations/zwave/#events
-/docs/z-wave/installation /integrations/zwave/#detailed-installation-instructions
-/docs/z-wave/query-stage /integrations/zwave/#query-stage
-/docs/z-wave/services /integrations/zwave/#services
+/docs/z-wave/device-specific /integrations/zwave_js
+/docs/z-wave/devices /integrations/zwave_js#supported-devices-and-command-classes
+/docs/z-wave/entities /integrations/zwave_js#using-z-wave-js
+/docs/z-wave/events /integrations/zwave_js#events
+/docs/z-wave/installation /integrations/zwave_js#configuration
+/docs/z-wave/query-stage /integrations/zwave_js
+/docs/z-wave/services /integrations/zwave_js#services
 /ecosystem/ios/notifications https://companion.home-assistant.io/docs/notifications/notifications-basic
 /ecosystem/notebooks https://data.home-assistant.io
 /ecosystem/notebooks/api https://data.home-assistant.io
@@ -2367,3 +2348,12 @@
 /integrations/bme280 /more-info/removed-integration 301
 /components/orangepi_gpio /more-info/removed-integration 301
 /integrations/orangepi_gpio /more-info/removed-integration 301
+/components/binary_sensor.zwave /integrations/zwave_js
+/components/climate.zwave /integrations/zwave_js
+/components/cover.zwave /integrations/zwave_js
+/components/fan.zwave /integrations/zwave_js
+/components/light.zwave /integrations/zwave_js
+/components/lock.zwave /integrations/zwave_js
+/components/sensor.zwave /integrations/zwave_js
+/components/switch.zwave /integrations/zwave_js
+/components/zwave /integrations/zwave_js
