@@ -140,10 +140,15 @@ With a template:
 {% raw %}
 
 ```yaml
-service: tts.google_translate_say
-data:
-  message: "Temperature is {{states('sensor.temperature')}}."
-  cache: false
+    - homeassistant.service:          
+        service: tts.google_translate_say
+        data:
+          entity_id: media_player.white_mini
+        data_template:
+          message: The input voltage is {{ my_variable | round(2) }} volts.
+        variables:
+          my_variable: |-
+            return id(huz_adc_input).state;  
 ```
 
 {% endraw %}
