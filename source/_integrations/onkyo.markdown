@@ -84,6 +84,8 @@ List of source names:
 - `multi-ch`
 - `xm`
 - `sirius`
+- 'strm-box'
+- 'bluetooth'
 
 If your source is not listed above, and you want to figure out how to format that source name so you can map its entry, you can use the `onkyo-eiscp` Python module to discover the exact naming needed. First, change your receiver's source to the one that you need to define, and then run:
 
